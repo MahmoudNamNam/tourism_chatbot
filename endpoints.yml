@@ -1,0 +1,27 @@
+# This file connects your Rasa assistant to various services and channels.
+
+# Web server configuration
+# You don’t need to set anything here if you're running Rasa with `rasa run` or via an API layer like FastAPI
+
+action_endpoint:
+  url: "http://localhost:5055/webhook"
+# For Render deployment:
+# If you're deploying Rasa Actions as a separate web service on Render,
+# replace "localhost" with your Render Action Server URL like:
+# url: "https://your-action-service.onrender.com/webhook"
+
+# Tracker Store (optional, you can use Redis, PostgreSQL, or MongoDB)
+# tracker_store:
+#   type: redis
+#   url: localhost
+#   port: 6379
+#   db: 0
+#   password: null
+
+# Event broker (optional, for streaming events to services like Kafka or RabbitMQ)
+# event_broker:
+#   type: "pika"
+#   url: "localhost"
+#   username: "guest"
+#   password: "guest"
+#   queue: "rasa_events"

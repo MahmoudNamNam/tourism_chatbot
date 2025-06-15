@@ -1,0 +1,168 @@
+version: "3.1"
+
+stories:
+
+- story: respond to ask_places_to_visit
+  steps:
+    - intent: ask_places_to_visit
+    - action: utter_ask_places_to_visit
+
+- story: respond to ask_safety
+  steps:
+    - intent: ask_safety
+    - action: utter_ask_safety
+
+- story: respond to ask_visa
+  steps:
+    - intent: ask_visa
+    - action: utter_ask_visa
+
+- story: respond to ask_about_pyramids
+  steps:
+    - intent: ask_about_pyramids
+    - action: utter_ask_about_pyramids
+
+- story: respond to ask_best_time_luxor
+  steps:
+    - intent: ask_best_time_luxor
+    - action: utter_ask_best_time_luxor
+
+- story: respond to ask_about_museums
+  steps:
+    - intent: ask_about_museums
+    - action: utter_ask_about_museums
+
+- story: respond to ask_egyptian_food
+  steps:
+    - intent: ask_egyptian_food
+    - action: utter_ask_egyptian_food
+
+- story: respond to ask_food_vegetarian
+  steps:
+    - intent: ask_food_vegetarian
+    - action: utter_ask_food_vegetarian
+
+- story: respond to ask_about_street_food
+  steps:
+    - intent: ask_about_street_food
+    - action: utter_ask_about_street_food
+
+- story: respond to ask_accessibility
+  steps:
+    - intent: ask_accessibility
+    - action: utter_ask_accessibility
+
+- story: respond to ask_trained_companion
+  steps:
+    - intent: ask_trained_companion
+    - action: utter_ask_trained_companion
+
+- story: respond to ask_couchsurfing
+  steps:
+    - intent: ask_couchsurfing
+    - action: utter_ask_couchsurfing
+
+- story: respond to ask_family_english
+  steps:
+    - intent: ask_family_english
+    - action: utter_ask_family_english
+
+- story: respond to ask_english_language
+  steps:
+    - intent: ask_english_language
+    - action: utter_ask_english_language
+
+- story: respond to ask_sim_card
+  steps:
+    - intent: ask_sim_card
+    - action: utter_ask_sim_card
+
+- story: respond to ask_about_uber
+  steps:
+    - intent: ask_about_uber
+    - action: utter_ask_about_uber
+
+- story: respond to ask_public_transport
+  steps:
+    - intent: ask_public_transport
+    - action: utter_ask_public_transport
+
+- story: respond to ask_meet_people
+  steps:
+    - intent: ask_meet_people
+    - action: utter_ask_meet_people
+
+- story: respond to ask_create_event
+  steps:
+    - intent: ask_create_event
+    - action: utter_ask_create_event
+
+- story: respond to ask_student_exchange
+  steps:
+    - intent: ask_student_exchange
+    - action: utter_ask_student_exchange
+
+- story: respond to ask_research_support
+  steps:
+    - intent: ask_research_support
+    - action: utter_ask_research_support
+
+- story: respond to ask_currency
+  steps:
+    - intent: ask_currency
+    - action: utter_ask_currency
+
+- story: respond to ask_credit_card
+  steps:
+    - intent: ask_credit_card
+    - action: utter_ask_credit_card
+
+- story: respond to ask_dress_code
+  steps:
+    - intent: ask_dress_code
+    - action: utter_ask_dress_code
+
+- story: respond to ask_ramadan_behavior
+  steps:
+    - intent: ask_ramadan_behavior
+    - action: utter_ask_ramadan_behavior
+
+- story: respond to ask_what_to_pack
+  steps:
+    - intent: ask_what_to_pack
+    - action: utter_ask_what_to_pack
+
+- story: respond to ask_health_safety
+  steps:
+    - intent: ask_health_safety
+    - action: utter_ask_health_safety
+
+- story: respond to ask_pharmacies
+  steps:
+    - intent: ask_pharmacies
+    - action: utter_ask_pharmacies
+
+- story: respond to ask_eco_tips
+  steps:
+    - intent: ask_eco_tips
+    - action: utter_ask_eco_tips
+
+- story: respond to ask_photo_rules
+  steps:
+    - intent: ask_photo_rules
+    - action: utter_ask_photo_rules
+
+- story: respond to ask_safari
+  steps:
+    - intent: ask_safari
+    - action: utter_ask_safari
+
+- story: respond to ask_nile_cruise
+  steps:
+    - intent: ask_nile_cruise
+    - action: utter_ask_nile_cruise
+
+- story: respond to ask_emergency_number
+  steps:
+    - intent: ask_emergency_number
+    - action: utter_ask_emergency_number

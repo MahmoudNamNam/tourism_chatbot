@@ -1,0 +1,255 @@
+nlu:
+  - examples: "- What are the best places to visit in Egypt?
+
+      - Can you suggest tourist attractions in Egypt?
+
+      - Where should I go in Egypt?
+
+      - Top places to see in Egypt?"
+    intent: ask_places_to_visit
+  - examples: "- Is Egypt safe?
+
+      - How safe is it to travel around Egypt?
+
+      - Can I travel safely in Egypt?
+
+      - Are there safety concerns in Egypt?"
+    intent: ask_safety
+  - examples: "- Do I need a visa to visit Egypt?
+
+      - How can I get a visa for Egypt?
+
+      - Visa requirements for Egypt?
+
+      - Can I get a visa on arrival in Egypt?"
+    intent: ask_visa
+  - examples: "- How do I visit the pyramids?
+
+      - Where are the pyramids in Egypt?
+
+      - What's the best way to see the pyramids?
+
+      - Can I visit the Giza pyramids from Cairo?"
+    intent: ask_about_pyramids
+  - examples: "- When is the best time to visit Luxor?
+
+      - Best season to go to Aswan?
+
+      - Is winter good for Luxor trips?
+
+      - What's the ideal time to travel to southern Egypt?"
+    intent: ask_best_time_luxor
+  - examples: "- What are the best museums in Egypt?
+
+      - Any famous museums in Cairo?
+
+      - Where can I see ancient Egyptian artifacts?
+
+      - Can you recommend a museum in Egypt?"
+    intent: ask_about_museums
+  - examples: "- What should I eat in Egypt?
+
+      - Recommend Egyptian dishes
+
+      - Popular food in Egypt?
+
+      - What are traditional Egyptian meals?"
+    intent: ask_egyptian_food
+  - examples: "- Are there vegetarian options in Egypt?
+
+      - I'm vegetarian. What can I eat in Egypt?
+
+      - Vegetarian-friendly food in Egypt?
+
+      - Can I find meatless meals in Egypt?"
+    intent: ask_food_vegetarian
+  - examples: "- Is street food safe in Egypt?
+
+      - Can I try street food in Cairo?
+
+      - What's the best street food in Egypt?
+
+      - Should I eat food from street vendors?"
+    intent: ask_about_street_food
+  - examples: "- Are places in Egypt accessible?
+
+      - Do you support travelers with disabilities?
+
+      - What about accessibility in Egypt?
+
+      - Are there wheelchair-friendly locations?"
+    intent: ask_accessibility
+  - examples: "- Can I get a guide for someone with disabilities?
+
+      - Are there trained companions for special needs?
+
+      - I need a local assistant in Egypt
+
+      - Is support available for disabled travelers?"
+    intent: ask_trained_companion
+  - examples: "- Can I couchsurf in Egypt?
+
+      - Any local families I can stay with?
+
+      - How does couchsurfing work in Egypt?
+
+      - Are there trusted local hosts?"
+    intent: ask_couchsurfing
+  - examples:
+      "- Do the host families speak English?\n- Will my host understand English?\n\
+      - Can I communicate with my Egyptian host family?\n- What if the family doesn\u2019\
+      t speak English?"
+    intent: ask_family_english
+  - examples: "- Do people speak English in Egypt?
+
+      - Will I face language barriers in Egypt?
+
+      - Is English commonly spoken?
+
+      - Can I get by in English?"
+    intent: ask_english_language
+  - examples: "- Where can I get a SIM card in Egypt?
+
+      - Best mobile network in Egypt?
+
+      - Can I buy a SIM at the airport?
+
+      - Local SIM card options?"
+    intent: ask_sim_card
+  - examples: "- Is Uber available in Egypt?
+
+      - Can I use Uber in Cairo?
+
+      - How do I get a ride in Egypt?
+
+      - Taxi or Uber in Egypt?"
+    intent: ask_about_uber
+  - examples: "- How is public transport in Egypt?
+
+      - Can I use buses and trains in Cairo?
+
+      - Metro service in Egypt?
+
+      - What's public transportation like?"
+    intent: ask_public_transport
+  - examples: "- How can I meet people in Egypt?
+
+      - Are there local meetups?
+
+      - Can I make friends while traveling?
+
+      - Any expat communities or events?"
+    intent: ask_meet_people
+  - examples: "- Can I host an event?
+
+      - How do I create a hangout?
+
+      - I want to invite people to a trip
+
+      - Can I organize something on the platform?"
+    intent: ask_create_event
+  - examples: "- Are there student exchange programs?
+
+      - Can I study in Egypt?
+
+      - Academic exchange options?
+
+      - Opportunities for international students?"
+    intent: ask_student_exchange
+  - examples:
+      "- I\u2019m a researcher. Can you help?\n- Is there research support in\
+      \ Egypt?\n- Academic connections in Egypt?\n- Help with field research?"
+    intent: ask_research_support
+  - examples: "- What currency is used in Egypt?
+
+      - Can I pay with dollars or euros?
+
+      - Exchange money in Egypt?
+
+      - Egyptian Pound details?"
+    intent: ask_currency
+  - examples: "- Do shops accept credit cards?
+
+      - Can I pay with card?
+
+      - Should I carry cash?
+
+      - Are ATMs available?"
+    intent: ask_credit_card
+  - examples: "- What should I wear in Egypt?
+
+      - Is there a dress code?
+
+      - What to wear in Cairo?
+
+      - Clothes for temples?"
+    intent: ask_dress_code
+  - examples: "- Can I eat during Ramadan?
+
+      - What should I know about Ramadan in Egypt?
+
+      - Visiting Egypt in Ramadan tips?
+
+      - Are restaurants open in Ramadan?"
+    intent: ask_ramadan_behavior
+  - examples: "- What should I pack for Egypt?
+
+      - Packing tips for Egypt?
+
+      - What clothes are best?
+
+      - Things to bring for Egypt trip?"
+    intent: ask_what_to_pack
+  - examples: "- Are there health risks in Egypt?
+
+      - Tips for staying healthy?
+
+      - Do I need vaccines?
+
+      - Drinking water safe?"
+    intent: ask_health_safety
+  - examples: "- Are pharmacies available?
+
+      - Where can I get medicine?
+
+      - Emergency meds in Egypt?
+
+      - How late are pharmacies open?"
+    intent: ask_pharmacies
+  - examples: "- How to travel sustainably in Egypt?
+
+      - Eco-friendly tips?
+
+      - Is Egypt eco-friendly?
+
+      - Help reduce my footprint while visiting?"
+    intent: ask_eco_tips
+  - examples: "- Can I take pictures in temples?
+
+      - Are there photography rules?
+
+      - Is photography allowed in museums?
+
+      - Do I need permission to take photos?"
+    intent: ask_photo_rules
+  - examples: "- Can I go on a desert safari?
+
+      - White Desert tours?
+
+      - Desert trip options?
+
+      - Adventure trips in Egypt?"
+    intent: ask_safari
+  - examples:
+      "- Can I take a Nile cruise?\n- What\u2019s a Nile cruise like?\n- Luxor\
+      \ to Aswan boat trip?\n- Cruise options on the Nile?"
+    intent: ask_nile_cruise
+  - examples: "- What's the emergency number in Egypt?
+
+      - Who do I call in case of emergency?
+
+      - Police and ambulance number?
+
+      - Emergency contact info in Egypt?"
+    intent: ask_emergency_number
+version: "3.1"

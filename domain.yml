@@ -1,0 +1,168 @@
+version: "3.1"
+
+intents:
+  - ask_places_to_visit
+  - ask_safety
+  - ask_visa
+  - ask_about_pyramids
+  - ask_best_time_luxor
+  - ask_about_museums
+  - ask_egyptian_food
+  - ask_food_vegetarian
+  - ask_about_street_food
+  - ask_accessibility
+  - ask_trained_companion
+  - ask_couchsurfing
+  - ask_family_english
+  - ask_english_language
+  - ask_sim_card
+  - ask_about_uber
+  - ask_public_transport
+  - ask_meet_people
+  - ask_create_event
+  - ask_student_exchange
+  - ask_research_support
+  - ask_currency
+  - ask_credit_card
+  - ask_dress_code
+  - ask_ramadan_behavior
+  - ask_what_to_pack
+  - ask_health_safety
+  - ask_pharmacies
+  - ask_eco_tips
+  - ask_photo_rules
+  - ask_safari
+  - ask_nile_cruise
+  - ask_emergency_number
+
+responses:
+  utter_ask_places_to_visit:
+    - text: "Egypt has many beautiful places! Don't miss Cairo, Luxor, Aswan, Siwa, and the Red Sea."
+
+  utter_ask_safety:
+    - text: "Yes, Egypt is generally safe. Just stay alert and use trusted transportation."
+
+  utter_ask_visa:
+    - text: "Most visitors need a visa. You can apply online or get one on arrival depending on your nationality."
+
+  utter_ask_about_pyramids:
+    - text: "You can visit the Pyramids via Uber, taxi, or guided tour from Cairo."
+
+  utter_ask_best_time_luxor:
+    - text: "October to April is the best time to visit Luxor and Aswan due to the cooler weather."
+
+  utter_ask_about_museums:
+    - text: "The Grand Egyptian Museum and the Egyptian Museum in Cairo are highly recommended."
+
+  utter_ask_egyptian_food:
+    - text: "Try koshary, molokhia, stuffed pigeons, falafel, and kofta!"
+
+  utter_ask_food_vegetarian:
+    - text: "Yes, dishes like falafel, koshary, and lentil soup are vegetarian-friendly."
+
+  utter_ask_about_street_food:
+    - text: "Yes, but stick to clean and busy places. Avoid raw vegetables and tap water."
+
+  utter_ask_accessibility:
+    - text: "We list accessible places and offer guides trained for disabilities."
+
+  utter_ask_trained_companion:
+    - text: "Yes! We can connect you with trained local helpers."
+
+  utter_ask_couchsurfing:
+    - text: "Yes! You can stay with trusted Egyptian families through our platform."
+
+  utter_ask_family_english:
+    - text: "Some do. We also offer translation help if needed."
+
+  utter_ask_english_language:
+    - text: "In tourist areas, many speak English. In rural areas, less—but people are helpful."
+
+  utter_ask_sim_card:
+    - text: "You can get a SIM from Vodafone, Orange, or Etisalat at the airport."
+
+  utter_ask_about_uber:
+    - text: "Yes, Uber is available in Cairo, Giza, and Alexandria."
+
+  utter_ask_public_transport:
+    - text: "Metro is easy in Cairo. Buses are cheap but less tourist-friendly."
+
+  utter_ask_meet_people:
+    - text: "Yes, you can meet people with similar interests and join weekly meetups."
+
+  utter_ask_create_event:
+    - text: "Absolutely! You can post your own hangouts and meet new people."
+
+  utter_ask_student_exchange:
+    - text: "Yes, we offer real programs for student and academic exchange."
+
+  utter_ask_research_support:
+    - text: "We support researchers and can connect you to local institutions."
+
+  utter_ask_currency:
+    - text: "The currency is the Egyptian Pound (EGP). Exchange shops and ATMs are everywhere."
+
+  utter_ask_credit_card:
+    - text: "Cards are accepted in cities. Carry cash for small or rural places."
+
+  utter_ask_dress_code:
+    - text: "In religious places, modest dress is best—cover shoulders and knees. In tourist areas, it's more relaxed."
+
+  utter_ask_ramadan_behavior:
+    - text: "During Ramadan, avoid eating in public during the day. Respect fasting locals, and enjoy the evening celebrations!"
+
+  utter_ask_what_to_pack:
+    - text: "Bring light clothes, sunscreen, hat, reusable water bottle, and comfortable shoes. A scarf can help with sun and modesty."
+
+  utter_ask_health_safety:
+    - text: "Stick to bottled water, use hand sanitizer, and carry basic medication. Clinics are available in cities."
+
+  utter_ask_pharmacies:
+    - text: "Pharmacies are everywhere and often open late. Many meds are available without prescription."
+
+  utter_ask_eco_tips:
+    - text: "Support local businesses, avoid single-use plastics, and respect heritage sites and nature reserves."
+
+  utter_ask_photo_rules:
+    - text: "Always ask before photographing people. Some museums and religious sites ban flash or charge a fee."
+
+  utter_ask_safari:
+    - text: "Yes! You can take desert safaris in Siwa or the White Desert—jeeps, camels, and stargazing included."
+
+  utter_ask_nile_cruise:
+    - text: "A Nile cruise between Luxor and Aswan is unforgettable—temples, sunsets, and local culture."
+
+  utter_ask_emergency_number:
+    - text: "For emergencies in Egypt: Police 122, Ambulance 123, Fire 180. We also provide local support contacts."
+
+  utter_default:
+    - text: "I'm sorry, I didn't understand that. Can you rephrase or ask about something else?"
+  utter_ask_wifi:
+    - text: "Yes, Wi-Fi is available in most hotels, cafes, and many public places in Egypt."
+
+  utter_ask_weather:
+    - text: "Egypt’s weather is mostly sunny and dry. Summers can be very hot, especially in Upper Egypt."
+
+  utter_ask_local_markets:
+    - text: "Visit Khan El Khalili in Cairo or Aswan Market for great local crafts and souvenirs."
+
+  utter_ask_local_transportation:
+    - text: "You can use taxis, Uber, metro (in Cairo), and buses. Microbuses are common but less tourist-friendly."
+
+  utter_ask_local_etiquette:
+    - text: "Dress modestly, especially in religious places. Tipping is appreciated, and be respectful when taking photos."
+
+  utter_ask_hiking:
+    - text: "Yes, places like Mount Sinai and the White Desert are great for hiking adventures."
+
+  utter_ask_nightlife:
+    - text: "Cairo has a vibrant nightlife including cafes, Nile cruises, and local music venues."
+
+  utter_ask_cultural_events:
+    - text: "Yes, there are many festivals like the Cairo International Film Festival and music concerts around Egypt."
+
+  utter_ask_travel_restrictions:
+    - text: "Please check with the official Egyptian tourism or embassy site for the latest travel and health restrictions."
+
+  utter_ask_tipping:
+    - text: "Tipping is common in Egypt. 5-10% is standard in restaurants, and small tips are appreciated for services."
