@@ -1,0 +1,11 @@
+services:
+  - type: web
+    name: tourism-chatbot
+    runtime: python
+    plan: free
+    region: oregon
+    buildCommand: ./render-build.sh
+    startCommand: rasa run --enable-api --cors "*" --port 5005
+    envVars:
+      - key: PYTHON_VERSION
+        value: 3.8.17
