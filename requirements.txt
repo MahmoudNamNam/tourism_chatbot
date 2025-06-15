@@ -5,3 +5,5 @@ uvicorn
 requests
 python-dotenv
 pymongo
+websockets==10.4
+sanic==21.12.1
